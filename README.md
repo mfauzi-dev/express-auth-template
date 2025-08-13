@@ -15,9 +15,9 @@ Starter project untuk membangun API menggunakan **Express.js** dengan fitur aute
 
 ## **Clone repository**
 
-    ```bash
-    git clone https://github.com/mfauzi-dev/express-auth-template
-    ```
+```bash
+git clone https://github.com/mfauzi-dev/express-auth-template
+```
 
 ## **Setup Project Baru**
 
@@ -43,21 +43,7 @@ Starter project untuk membangun API menggunakan **Express.js** dengan fitur aute
 4. **Buat file .env berdasarkan .env.example**
 
     ```bash
-    APP_PORT=5000
-    CLIENT_URL=http://localhost:5173
-
-    SMTP_HOST=smtp.example.com
-    SMTP_PORT=587
-    SMTP_SECURE=false
-    SMTP_MAIL=you@example.com
-    SMTP_PASSWORD=your_email_password
-
-    JWT_SECRET=your_jwt_secret_here
-
-    DB_HOST=localhost
-    DB_USER=your_database_username
-    DB_PASSWORD=your_database_password
-    DB_NAME=your_database_name
+    cp .env.example .env
     ```
 
 5. **Jalankan project**
