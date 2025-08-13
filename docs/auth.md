@@ -38,7 +38,7 @@ Success Response (201):
     "result": {
         "id": 1,
         "name": "Test User",
-        "email": "test@example.com",
+        "email": "test@gmail.com",
         "isVerified": false,
         "verificationToken": "123456",
         "verificationTokenExpiresAt": "2025-08-12T12:00:00.000Z",
@@ -78,7 +78,7 @@ Success Response (200):
     "user": {
         "id": 1,
         "name": "Test User",
-        "email": "test@example.com",
+        "email": "test@gmail.com",
         "isVerified": true
     }
 }
@@ -115,7 +115,7 @@ Success Response (200):
     "user": {
         "id": 1,
         "name": "Test User",
-        "email": "test@example.com",
+        "email": "test@gmail.com",
         "isVerified": true
     }
 }
@@ -204,9 +204,9 @@ Success Response (200):
 {
     "success": true,
     "user": {
-        "id": "fc032d35-c2b5-4ffb-b8c2-a14381fa4c9c",
+        "id": "1",
         "name": "Test User",
-        "email": "fauzitest13@gmail.com"
+        "email": "test@gmail.com"
     }
 }
 ```
